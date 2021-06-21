@@ -1,0 +1,11 @@
+﻿<Project>
+  <Import Project="..\Directory.Build.props" />
+  <PropertyGroup>
+    <StrongNameKeyId>Microsoft</StrongNameKeyId>
+    <ServicingVersion>1</ServicingVersion>
+    <!-- This should be pinned to 5.0.0.1 for non-netfx assets as it is part of aspnetcore ref pack.-->
+    <AssemblyVersion>5.0.0.1</AssemblyVersion>
+    <IncludePlatformAttributes>true</IncludePlatformAttributes>
+    <UnsupportedOSPlatforms>browser</UnsupportedOSPlatforms>
+  </PropertyGroup>
+</Project>
